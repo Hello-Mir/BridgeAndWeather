@@ -1,4 +1,3 @@
-class Stick {
-    val xLocation: Int = 0
-    val yLocation: Int = 0
+class Stick(val xLocation: Int, val yLocation: Int) {
+    val isBrocken: Boolean = false
 }

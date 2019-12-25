@@ -12,4 +12,11 @@ class Bridge (val someWidth: Int, val someLength: Int) : Observer {
     fun randomGeneration():Int{
         return 1+ Random.nextInt(2)
     }
+
+    fun stickCoordinatsCalculator(someBridge: Bridge){
+/*
+получать экземпляр моста
+составить список опор с конкретными координатами
+ */
+    }
 }
