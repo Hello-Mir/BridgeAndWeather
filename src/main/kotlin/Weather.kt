@@ -1,10 +1,24 @@
+import kotlin.random.Random
+
 class Weather : Subject {
+    private val list: MutableList<Observer> = mutableListOf()
+
     override fun deleteObserver(observer: Observer) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        list.remove(observer)
     }
 
     override fun reserveObserver(observer: Observer) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        list.add(observer)
     }
+
+    fun getThunder(someBridge: Bridge) {
+        if (someBridge.randomGeneration()) {
+            someBridge.update(true)
+        } else {
+            someBridge.update(false)
+        }
+    }
+
+
 
 }

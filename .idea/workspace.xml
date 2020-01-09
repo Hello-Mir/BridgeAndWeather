@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a8ef2a-6e36-4a7a-a220-bfe7daeb5b04" name="Default Changelist" comment="Bridge/stickCoordinator in progress">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Weather.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Weather.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +152,10 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="486" y="102" width="442" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1578581412779">
+      <screen x="51" y="24" width="1315" height="744" />
+    </state>
+    <state x="486" y="102" width="442" height="560" key="#com.intellij.ide.util.MemberChooser/51.24.1315.744@51.24.1315.744" timestamp="1578581412779" />
     <state x="561" y="275" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577642674839">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
@@ -172,22 +176,22 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="496" y="155" key="FileChooserDialogImpl/51.24.1315.744@51.24.1315.744" timestamp="1578351872495" />
-    <state width="1269" height="246" key="GridCell.Tab.0.bottom" timestamp="1578578441068">
+    <state width="1269" height="246" key="GridCell.Tab.0.bottom" timestamp="1578583006433">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578578441068" />
-    <state width="1269" height="246" key="GridCell.Tab.0.center" timestamp="1578578441067">
+    <state width="1269" height="246" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578583006433" />
+    <state width="1269" height="246" key="GridCell.Tab.0.center" timestamp="1578583006432">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1578578441067" />
-    <state width="1269" height="246" key="GridCell.Tab.0.left" timestamp="1578578441066">
+    <state width="1269" height="246" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1578583006432" />
+    <state width="1269" height="246" key="GridCell.Tab.0.left" timestamp="1578583006430">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1578578441066" />
-    <state width="1269" height="246" key="GridCell.Tab.0.right" timestamp="1578578441067">
+    <state width="1269" height="246" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1578583006430" />
+    <state width="1269" height="246" key="GridCell.Tab.0.right" timestamp="1578583006433">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1578578441067" />
+    <state width="1269" height="246" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1578583006433" />
     <state width="1269" height="240" key="GridCell.Tab.1.bottom" timestamp="1578576055370">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -233,14 +237,14 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="51" y="24" key="new project wizard/51.24.1315.744@51.24.1315.744" timestamp="1578318453750" />
-    <state x="371" y="168" key="run.anything.popup" timestamp="1578344643121">
+    <state x="371" y="168" key="run.anything.popup" timestamp="1578579842802">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="371" y="168" key="run.anything.popup/51.24.1315.744@51.24.1315.744" timestamp="1578344643121" />
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577720680389">
+    <state x="371" y="168" key="run.anything.popup/51.24.1315.744@51.24.1315.744" timestamp="1578579842802" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578579681733">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.24.1315.744@51.24.1315.744" timestamp="1577720680389" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.24.1315.744@51.24.1315.744" timestamp="1578579681733" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,11 +258,6 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt</url>
           <line>1</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,8 +3,9 @@ fun main(){
 //    print(test.randomGeneration())
     val someSticks = test.stickCoordinatsCalculator(test)
     for (stick in someSticks){
-        print(stick.xLocation)
-        println(stick.yLocation)
+        print("; " + stick.xLocation)
+        println(" ,"+ stick.yLocation)
+
     }
 
 
