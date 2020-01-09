@@ -1,8 +1,6 @@
 import kotlin.random.Random
 
-class Bridge(val width: Int, val length: Int) : Observer {
-    //    private val localWidth: Int = 0
-//    private val lenght: Int = 0
+class Bridge(val length: Int, val width: Int) : Observer {
     private var gotThunder: Boolean = false
 
     override fun update(thunderStrike: Boolean) {
@@ -14,22 +12,21 @@ class Bridge(val width: Int, val length: Int) : Observer {
     }
 
     fun stickCoordinatsCalculator(someBridge: Bridge): List<Stick> {
+//        val firstStick = Stick(0,0)
         val lastStick = Stick(someBridge.length, someBridge.width)
-        val listOfSticks: MutableList<Stick> = mutableListOf(lastStick)
-        var lastX = lastStick.xLocation
-        var lastY = lastStick.yLocation
+        val listOfSticks: MutableList<Stick> = mutableListOf()
+//
+//        var lastX = lastStick.xLocation
+//        var lastY = lastStick.yLocation
 
-
-        for (stick in listOfSticks) {
-            if (stick.xLocation > 0 && lastY > 0)
-                listOfSticks.add(Stick(lastX, lastY))
-            lastX -= 1
-            lastY -= 1
+        for (stickX in 0..someBridge.length) {
+            for (stickY in 0..someBridge.width) {
+                listOfSticks.add(Stick(stickX, stickY))
+            }
         }
         return listOfSticks
-/*
-получать экземпляр моста
-составить список опор с конкретными координатами
- */
     }
 }
+
+
+
