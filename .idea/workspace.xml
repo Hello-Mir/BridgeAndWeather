@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a8ef2a-6e36-4a7a-a220-bfe7daeb5b04" name="Default Changelist" comment="Bridge/stickCoordinator in progress">
+    <list default="true" id="86a8ef2a-6e36-4a7a-a220-bfe7daeb5b04" name="Default Changelist" comment="squash! Stick,Bridge and Weather in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Weather.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Weather.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="611e75b85d6f2863234ac54c77a72671e1b82fd1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,10 +163,10 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="825" y="176" key="#xdebugger.evaluate/51.24.1315.744@51.24.1315.744" timestamp="1578345121070" />
-    <state x="320" y="24" key="CommitChangelistDialog2" timestamp="1577778165537">
+    <state x="51" y="-4" width="1315" height="772" key="CommitChangelistDialog2" timestamp="1578896727172">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="320" y="24" key="CommitChangelistDialog2/51.24.1315.744@51.24.1315.744" timestamp="1577778165537" />
+    <state x="51" y="-4" width="1315" height="772" key="CommitChangelistDialog2/51.24.1315.744@51.24.1315.744" timestamp="1578896727172" />
     <state x="150" y="96" width="1117" height="573" key="DiffContextDialog" timestamp="1577784001088">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -176,38 +175,38 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="496" y="155" key="FileChooserDialogImpl/51.24.1315.744@51.24.1315.744" timestamp="1578351872495" />
-    <state width="1269" height="246" key="GridCell.Tab.0.bottom" timestamp="1578583006433">
+    <state width="1269" height="177" key="GridCell.Tab.0.bottom" timestamp="1578901653825">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578583006433" />
-    <state width="1269" height="246" key="GridCell.Tab.0.center" timestamp="1578583006432">
+    <state width="1269" height="177" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578901653825" />
+    <state width="1269" height="177" key="GridCell.Tab.0.center" timestamp="1578901653824">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1578583006432" />
-    <state width="1269" height="246" key="GridCell.Tab.0.left" timestamp="1578583006430">
+    <state width="1269" height="177" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1578901653824" />
+    <state width="1269" height="177" key="GridCell.Tab.0.left" timestamp="1578901653824">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1578583006430" />
-    <state width="1269" height="246" key="GridCell.Tab.0.right" timestamp="1578583006433">
+    <state width="1269" height="177" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1578901653824" />
+    <state width="1269" height="177" key="GridCell.Tab.0.right" timestamp="1578901653825">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="246" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1578583006433" />
-    <state width="1269" height="240" key="GridCell.Tab.1.bottom" timestamp="1578576055370">
+    <state width="1269" height="177" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1578901653825" />
+    <state width="1269" height="124" key="GridCell.Tab.1.bottom" timestamp="1578836161131">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="240" key="GridCell.Tab.1.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578576055370" />
-    <state width="1269" height="240" key="GridCell.Tab.1.center" timestamp="1578576055369">
+    <state width="1269" height="124" key="GridCell.Tab.1.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578836161131" />
+    <state width="1269" height="124" key="GridCell.Tab.1.center" timestamp="1578836161130">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="240" key="GridCell.Tab.1.center/51.24.1315.744@51.24.1315.744" timestamp="1578576055369" />
-    <state width="1269" height="240" key="GridCell.Tab.1.left" timestamp="1578576055368">
+    <state width="1269" height="124" key="GridCell.Tab.1.center/51.24.1315.744@51.24.1315.744" timestamp="1578836161130" />
+    <state width="1269" height="124" key="GridCell.Tab.1.left" timestamp="1578836161130">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="240" key="GridCell.Tab.1.left/51.24.1315.744@51.24.1315.744" timestamp="1578576055368" />
-    <state width="1269" height="240" key="GridCell.Tab.1.right" timestamp="1578576055369">
+    <state width="1269" height="124" key="GridCell.Tab.1.left/51.24.1315.744@51.24.1315.744" timestamp="1578836161130" />
+    <state width="1269" height="124" key="GridCell.Tab.1.right" timestamp="1578836161131">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="240" key="GridCell.Tab.1.right/51.24.1315.744@51.24.1315.744" timestamp="1578576055369" />
+    <state width="1269" height="124" key="GridCell.Tab.1.right/51.24.1315.744@51.24.1315.744" timestamp="1578836161131" />
     <state x="196" y="24" key="SettingsEditor" timestamp="1578351963436">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -221,18 +220,18 @@
     </state>
     <state x="367" y="225" key="com.intellij.ide.util.TipDialog/51.24.1315.744@51.24.1315.744" timestamp="1577696630768" />
     <state x="378" y="225" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1577642625114" />
-    <state x="481" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577778034612">
+    <state x="481" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578896646377">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="481" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.24.1315.744@51.24.1315.744" timestamp="1577778034612" />
+    <state x="481" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.24.1315.744@51.24.1315.744" timestamp="1578896646377" />
     <state x="268" y="122" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578345184976">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="268" y="122" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/51.24.1315.744@51.24.1315.744" timestamp="1578345184976" />
-    <state x="150" y="96" width="1117" height="573" key="dock-window-1" timestamp="1577720041435">
+    <state x="150" y="96" width="1117" height="573" key="dock-window-1" timestamp="1578841715375">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="150" y="96" width="1117" height="573" key="dock-window-1/51.24.1315.744@51.24.1315.744" timestamp="1577720041435" />
+    <state x="150" y="96" width="1117" height="573" key="dock-window-1/51.24.1315.744@51.24.1315.744" timestamp="1578841715375" />
     <state x="51" y="24" key="new project wizard" timestamp="1578318453750">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -241,10 +240,10 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="371" y="168" key="run.anything.popup/51.24.1315.744@51.24.1315.744" timestamp="1578579842802" />
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578579681733">
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578843382995">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.24.1315.744@51.24.1315.744" timestamp="1578579681733" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.24.1315.744@51.24.1315.744" timestamp="1578843382995" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,6 +257,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt</url>
           <line>1</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
