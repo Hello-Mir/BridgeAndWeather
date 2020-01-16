@@ -1,10 +1,12 @@
 fun main(){
     val test = Bridge(2, 3)
     val matrix = test.coordinatsCalculator(test)
-// val someList = test.coordinatsCalculator(test)
-    for (i in matrix){
-        print(i.x)
-        println("," + i.y)
+ val someList = test.stickBuilder(matrix)
+
+    for (i in someList){
+        print(i.xCoordiant)
+        print("," + i.yCoordinat)
+        println("," + i.hasCrack)
     }
 /*
  создать опору с 4 координатами a,b,c,d
