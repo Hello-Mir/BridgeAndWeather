@@ -1,10 +1,11 @@
-data class Stick(val xCoordiant: Coordiants,
-            val yCoordinat: Coordiants,
-            var hasCrack: Boolean) {
+data class Stick(
+    val xCoordiant: Coordiants,
+    val yCoordinat: Coordiants
+) {
     private var isBrocken = false
 
 
-data class Coordiants(var x: Double, var y: Double)
+    data class Coordiants(var x: Double, var y: Double)
 
 }
 

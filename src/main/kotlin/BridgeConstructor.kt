@@ -5,10 +5,11 @@ fun main(){
 
     for (i in someList){
         print(i.xCoordiant)
-        print("," + i.yCoordinat)
-        println("," + i.hasCrack)
+        println("," + i.yCoordinat)
     }
+println(someList.size)
 /*
+
  создать опору с 4 координатами a,b,c,d
  class Stick(matrix: Matrix, matrix: Matrix)
 

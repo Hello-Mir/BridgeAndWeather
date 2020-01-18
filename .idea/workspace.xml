@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a8ef2a-6e36-4a7a-a220-bfe7daeb5b04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__3_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__4_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__5_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__6_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__7_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__8_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,93 +14,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="544">
-                    <caret line="32" column="90" lean-forward="true" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
-                    <folding>
-                      <element signature="e#0#74#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Stick.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#74#0" expanded="true" />
-                <marker date="1579187702071" expanded="true" signature="733:1374" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/test.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Subject.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Weather.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,15 +34,6 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/test.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1940" />
     <option name="y" value="300" />
@@ -145,49 +42,6 @@
   </component>
   <component name="ProjectId" id="1VfSMbK9UK7cQnEZVe3mYZpUhDQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BridgeAndWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BridgeAndWeather" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BridgeAndWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BridgeAndWeather" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BridgeAndWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BridgeAndWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BridgeAndWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BridgeAndWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BridgeAndWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BridgeAndWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -205,7 +59,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28424156" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -214,18 +68,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\a.ivanov50\IdeaProjects\BridgeAndWeather\src\rgtrt" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Kotlin.BridgeConstructorKt">
     <configuration name="BridgeConstructorKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
@@ -320,42 +162,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1176" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22051774" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32981783" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981783" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17162032" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32981783" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32981783" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="9" weight="0.32995737" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -365,12 +171,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -420,46 +220,46 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="150" y="96" width="1117" height="573" key="DiffContextDialog/51.24.1315.744@51.24.1315.744" timestamp="1577784001088" />
-    <state x="496" y="155" key="FileChooserDialogImpl" timestamp="1578351872495">
+    <state x="496" y="155" key="FileChooserDialogImpl" timestamp="1579384661081">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="496" y="155" key="FileChooserDialogImpl/51.24.1315.744@51.24.1315.744" timestamp="1578351872495" />
-    <state width="1269" height="177" key="GridCell.Tab.0.bottom" timestamp="1578901653825">
+    <state x="496" y="155" key="FileChooserDialogImpl/51.24.1315.744@51.24.1315.744" timestamp="1579384661081" />
+    <state width="1269" height="210" key="GridCell.Tab.0.bottom" timestamp="1579386726570">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="177" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578901653825" />
-    <state width="1269" height="177" key="GridCell.Tab.0.center" timestamp="1578901653824">
+    <state width="1269" height="210" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1579386726570" />
+    <state width="1269" height="210" key="GridCell.Tab.0.center" timestamp="1579386726565">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="177" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1578901653824" />
-    <state width="1269" height="177" key="GridCell.Tab.0.left" timestamp="1578901653824">
+    <state width="1269" height="210" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1579386726565" />
+    <state width="1269" height="210" key="GridCell.Tab.0.left" timestamp="1579386726564">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="177" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1578901653824" />
-    <state width="1269" height="177" key="GridCell.Tab.0.right" timestamp="1578901653825">
+    <state width="1269" height="210" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1579386726564" />
+    <state width="1269" height="210" key="GridCell.Tab.0.right" timestamp="1579386726570">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="177" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1578901653825" />
-    <state width="1269" height="124" key="GridCell.Tab.1.bottom" timestamp="1578836161131">
+    <state width="1269" height="210" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1579386726570" />
+    <state width="1269" height="240" key="GridCell.Tab.1.bottom" timestamp="1579384010508">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="124" key="GridCell.Tab.1.bottom/51.24.1315.744@51.24.1315.744" timestamp="1578836161131" />
-    <state width="1269" height="124" key="GridCell.Tab.1.center" timestamp="1578836161130">
+    <state width="1269" height="240" key="GridCell.Tab.1.bottom/51.24.1315.744@51.24.1315.744" timestamp="1579384010508" />
+    <state width="1269" height="240" key="GridCell.Tab.1.center" timestamp="1579384010505">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="124" key="GridCell.Tab.1.center/51.24.1315.744@51.24.1315.744" timestamp="1578836161130" />
-    <state width="1269" height="124" key="GridCell.Tab.1.left" timestamp="1578836161130">
+    <state width="1269" height="240" key="GridCell.Tab.1.center/51.24.1315.744@51.24.1315.744" timestamp="1579384010505" />
+    <state width="1269" height="240" key="GridCell.Tab.1.left" timestamp="1579384010505">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="124" key="GridCell.Tab.1.left/51.24.1315.744@51.24.1315.744" timestamp="1578836161130" />
-    <state width="1269" height="124" key="GridCell.Tab.1.right" timestamp="1578836161131">
+    <state width="1269" height="240" key="GridCell.Tab.1.left/51.24.1315.744@51.24.1315.744" timestamp="1579384010505" />
+    <state width="1269" height="240" key="GridCell.Tab.1.right" timestamp="1579384010506">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="124" key="GridCell.Tab.1.right/51.24.1315.744@51.24.1315.744" timestamp="1578836161131" />
-    <state x="196" y="24" key="SettingsEditor" timestamp="1578351963436">
+    <state width="1269" height="240" key="GridCell.Tab.1.right/51.24.1315.744@51.24.1315.744" timestamp="1579384010506" />
+    <state x="196" y="24" key="SettingsEditor" timestamp="1579387129114">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="196" y="24" key="SettingsEditor/51.24.1315.744@51.24.1315.744" timestamp="1578351963436" />
+    <state x="196" y="24" key="SettingsEditor/51.24.1315.744@51.24.1315.744" timestamp="1579387129114" />
     <state x="308" y="108" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1577777537152">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -481,10 +281,10 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="150" y="96" width="1117" height="573" key="dock-window-1/51.24.1315.744@51.24.1315.744" timestamp="1578841715375" />
-    <state x="51" y="24" key="new project wizard" timestamp="1578318453750">
+    <state x="51" y="24" key="new project wizard" timestamp="1579384720302">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state x="51" y="24" key="new project wizard/51.24.1315.744@51.24.1315.744" timestamp="1578318453750" />
+    <state x="51" y="24" key="new project wizard/51.24.1315.744@51.24.1315.744" timestamp="1579384720302" />
     <state x="371" y="168" key="run.anything.popup" timestamp="1578579842802">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -494,34 +294,26 @@
     </state>
     <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.24.1315.744@51.24.1315.744" timestamp="1578843382995" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="90" lean-forward="true" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
