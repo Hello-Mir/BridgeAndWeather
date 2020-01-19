@@ -47,6 +47,14 @@ class Bridge(private val length: Int, private val width: Int) : Observer {
         } else false
     }
 
+    fun stickRandomizer(someStickList: MutableList<Stick>): MutableList<Stick> {
+        someStickList.forEach {
+            it.isBrocken = randomGeneration()
+        }
+        someStickList.removeIf { it.isBrocken }
+        return someStickList
+    }
+
 }
 
 
