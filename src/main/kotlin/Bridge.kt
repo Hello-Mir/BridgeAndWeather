@@ -55,7 +55,26 @@ class Bridge(private val length: Int, private val width: Int) : Observer {
         return someStickList
     }
 
+    fun bridgeWorkAnalizer(list: MutableList<Stick>): String {
+        var x = list[0]
+        var result: String = "Мост нуждается в восстановлении"
+        for (f in 1 until list.size) {
+            if (x.xCoordiant == list[f].xCoordiant ||
+                x.xCoordiant == list[f].yCoordinat ||
+                x.yCoordinat == list[f].xCoordiant ||
+                x.yCoordinat == list[f].yCoordinat
+            ) {
+                x = list[f]
+                result = "Найдена уцелевшая опора с координатами ${x.xCoordiant},${x.yCoordinat}"
+            }
+
+        }
+        return result
+    }
+
 }
+
+
 
 
 
