@@ -47,31 +47,37 @@ class Bridge(private val length: Int, private val width: Int) : Observer {
         } else false
     }
 
-    fun stickRandomizer(someStickList: MutableList<Stick>): MutableList<Stick> {
+    fun stickCounter(someStickList: MutableList<Stick>): MutableList<Stick> {
         someStickList.forEach {
             it.isBrocken = randomGeneration()
         }
         someStickList.removeIf { it.isBrocken }
+        var goodStick: Stick = someStickList[0]
+        var badSticks = mutableListOf<Stick>()
+        for (f in someStickList) {
+            if (goodStick.xCoordiant == f.xCoordiant ||
+                goodStick.xCoordiant == f.yCoordinat ||
+                goodStick.yCoordinat == f.xCoordiant ||
+                goodStick.yCoordinat == f.yCoordinat
+            ) {
+                goodStick = f
+            } else {
+                badSticks.add(f)
+            }
+        }
+        if (someStickList.containsAll(badSticks)) {
+            someStickList.removeAll(badSticks)
+        }
+
         return someStickList
     }
 
-    fun bridgeWorkAnalizer(list: MutableList<Stick>): String {
-        var x = list[0]
-        var result: String = "Мост нуждается в восстановлении"
-        for (f in 1 until list.size) {
-            if (x.xCoordiant == list[f].xCoordiant ||
-                x.xCoordiant == list[f].yCoordinat ||
-                x.yCoordinat == list[f].xCoordiant ||
-                x.yCoordinat == list[f].yCoordinat
-            ) {
-                x = list[f]
-                result = "Найдена уцелевшая опора с координатами ${x.xCoordiant},${x.yCoordinat}"
-            }
-
-        }
-        return result
-    }
-
+/*
+    3 . .
+    2 . .
+    1 . .
+    0 1 2
+  */
 }
 
 
