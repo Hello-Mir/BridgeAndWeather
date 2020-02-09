@@ -1,6 +1,6 @@
 data class Stick(
-    val xCoordiant: Coordiants,
-    val yCoordinat: Coordiants
+    val a: Coordiants,
+    val b: Coordiants
 ) {
     var isBrocken = false
 

@@ -25,18 +25,19 @@ class Bridge(private val length: Int, private val width: Int) : Observer {
     fun stickBuilder(coordiants: MutableList<Stick.Coordiants>): MutableList<Stick> {
         val stickList = mutableListOf<Stick>()
 
-        coordiants.forEach { xCoordiant ->
-            coordiants.forEach { yCoordinat ->
-                if (sqrt((xCoordiant.x - yCoordinat.x).pow(2) + (xCoordiant.y - yCoordinat.y).pow(2)) <= 1.1 &&
-                    xCoordiant != yCoordinat
+        coordiants.forEach { a ->
+            coordiants.forEach { b ->
+                if (sqrt((a.x - b.x).pow(2) + (a.y - b.y).pow(2)) <= 1.1 &&
+                    a != b
                 ) {
-                    val element = Stick(xCoordiant, yCoordinat)
-                    if (!stickList.contains(Stick(element.yCoordinat, element.xCoordiant))) {
+                    val element = Stick(a, b)
+                    if (!stickList.contains(Stick(element.b, element.a))) {
                         stickList.add(element)
                     }
                 }
             }
         }
+        stickList.forEach { it.isBrocken = randomGeneration()}
         return stickList
     }
 
@@ -47,37 +48,58 @@ class Bridge(private val length: Int, private val width: Int) : Observer {
         } else false
     }
 
-    fun stickCounter(someStickList: MutableList<Stick>): MutableList<Stick> {
-        someStickList.forEach {
-            it.isBrocken = randomGeneration()
-        }
-        someStickList.removeIf { it.isBrocken }
-        var goodStick: Stick = someStickList[0]
-        var badSticks = mutableListOf<Stick>()
-        for (f in someStickList) {
-            if (goodStick.xCoordiant == f.xCoordiant ||
-                goodStick.xCoordiant == f.yCoordinat ||
-                goodStick.yCoordinat == f.xCoordiant ||
-                goodStick.yCoordinat == f.yCoordinat
-            ) {
-                goodStick = f
-            } else {
-                badSticks.add(f)
+    fun pathBuilder(someStickList: MutableList<Stick>): MutableList<Stick> {
+       var currentStick = someStickList[0]
+        val readyToGo = mutableListOf<Stick>()
+        for (f in  1 until someStickList.size){
+            if(
+                (currentStick.a.x == someStickList[f].a.x && currentStick.a.y == someStickList[f].a.y) ||
+                (currentStick.b.x == someStickList[f].b. x && currentStick.b.y == someStickList[f].b.y &&
+                        !someStickList[f].isBrocken)
+                    ){
+                currentStick = someStickList[f]
+                readyToGo.add(currentStick)
+
             }
         }
-        if (someStickList.containsAll(badSticks)) {
-            someStickList.removeAll(badSticks)
-        }
-
-        return someStickList
+        return readyToGo
     }
+//    сложить координаты балок имеющих связь с каждой из сторон
+//    пройтись по всем балкам, начиная от той, которая имеет связь с одной стороной и работоспособна
+//    проходя в цикле, находить работоспособную балку для каждой точки, запоминать свою позиицию, никогда не возваращаться к ней,
+//    идти дальше до координаты противоположного берега
+//    ??
+    // вынести определение балок, относящихся к левому и правому берегу
+    /*
+    A(x,y) & B(x,y)
 
-/*
-    3 . .
-    2 . .
-    1 . .
-    0 1 2
-  */
+возможные значения типа x = {0...2}
+возможные значения типа y = {0...3)
+
+x x x
+x y x
+x c y y
+x x x
+
+
+1) собрать все балки, по которым можно пройти
+пройтись от балки[0]
+перебрать все балки рядом с текущей точкой.
+Балка рядом = балка, по которой можно будет пройти. Не сломана И
+A.x == B.x
+A.y == B.y
+
+when aliveAndOk = true
+then currentStick = aliveAndOK
+
+2) определить, можно ли по мосту пройти
+среди списка балок, должны быть те, у которых
+x = 0
+или
+x = 2
+
+//поправить : результат "Coordiants(x=0.0, y=0.0),Coordiants(x=1.0, y=0.0),false"
+     */
 }
 
 

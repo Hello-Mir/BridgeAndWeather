@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Stick.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -207,6 +208,10 @@
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="561" y="275" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/65.24.1301.744@65.24.1301.744" timestamp="1577642674839" />
+    <state x="466" y="25" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1580994237615">
+      <screen x="51" y="24" width="1315" height="744" />
+    </state>
+    <state x="466" y="25" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/51.24.1315.744@51.24.1315.744" timestamp="1580994237615" />
     <state x="825" y="176" key="#xdebugger.evaluate" timestamp="1578345121070">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -223,22 +228,22 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="496" y="155" key="FileChooserDialogImpl/51.24.1315.744@51.24.1315.744" timestamp="1579384661081" />
-    <state width="1269" height="73" key="GridCell.Tab.0.bottom" timestamp="1579551956782">
+    <state width="1269" height="210" key="GridCell.Tab.0.bottom" timestamp="1581283059319">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="73" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1579551956782" />
-    <state width="1269" height="73" key="GridCell.Tab.0.center" timestamp="1579551956781">
+    <state width="1269" height="210" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1581283059319" />
+    <state width="1269" height="210" key="GridCell.Tab.0.center" timestamp="1581283059317">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="73" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1579551956781" />
-    <state width="1269" height="73" key="GridCell.Tab.0.left" timestamp="1579551956779">
+    <state width="1269" height="210" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1581283059317" />
+    <state width="1269" height="210" key="GridCell.Tab.0.left" timestamp="1581283059314">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="73" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1579551956779" />
-    <state width="1269" height="73" key="GridCell.Tab.0.right" timestamp="1579551956782">
+    <state width="1269" height="210" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1581283059314" />
+    <state width="1269" height="210" key="GridCell.Tab.0.right" timestamp="1581283059317">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="73" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1579551956782" />
+    <state width="1269" height="210" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1581283059317" />
     <state width="1269" height="73" key="GridCell.Tab.1.bottom" timestamp="1579551956789">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
