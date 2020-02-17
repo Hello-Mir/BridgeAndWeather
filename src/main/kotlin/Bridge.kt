@@ -43,22 +43,23 @@ class Bridge(private val length: Int, private val width: Int) : Observer {
 
 
     fun randomGeneration(): Boolean {
-        return if (1 + Random.nextInt(2) == 2) {
+        var x = 1 + Random.nextInt(10)
+        return if (listOf(1,2,3,4).contains(x)) {
             return true
         } else false
     }
 
     fun pathBuilder(someStickList: MutableList<Stick>): MutableList<Stick> {
-       var currentStick = someStickList[0]
+       var startStick = someStickList[0]
         val readyToGo = mutableListOf<Stick>()
-        for (f in  1 until someStickList.size){
+        for (f in someStickList){
             if(
-                (currentStick.a.x == someStickList[f].a.x && currentStick.a.y == someStickList[f].a.y) ||
-                (currentStick.b.x == someStickList[f].b. x && currentStick.b.y == someStickList[f].b.y &&
-                        !someStickList[f].isBrocken)
-                    ){
-                currentStick = someStickList[f]
-                readyToGo.add(currentStick)
+                ((startStick.a.x == f.a.x || startStick.a.y == f.a.y) ||
+                (startStick.b.x == f.b. x || startStick.b.y == f.b.y)) &&
+                        !f.isBrocken)
+                    {
+                startStick = f
+                readyToGo.add(startStick)
 
             }
         }
