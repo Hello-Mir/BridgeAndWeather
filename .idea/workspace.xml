@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a8ef2a-6e36-4a7a-a220-bfe7daeb5b04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BridgeUtils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bridge.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BridgeConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Weather.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Weather.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,22 +229,22 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="496" y="155" key="FileChooserDialogImpl/51.24.1315.744@51.24.1315.744" timestamp="1579384661081" />
-    <state width="1269" height="210" key="GridCell.Tab.0.bottom" timestamp="1581973760676">
+    <state width="1269" height="210" key="GridCell.Tab.0.bottom" timestamp="1581974066521">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="210" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1581973760676" />
-    <state width="1269" height="210" key="GridCell.Tab.0.center" timestamp="1581973760674">
+    <state width="1269" height="210" key="GridCell.Tab.0.bottom/51.24.1315.744@51.24.1315.744" timestamp="1581974066521" />
+    <state width="1269" height="210" key="GridCell.Tab.0.center" timestamp="1581974066520">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="210" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1581973760674" />
-    <state width="1269" height="210" key="GridCell.Tab.0.left" timestamp="1581973760672">
+    <state width="1269" height="210" key="GridCell.Tab.0.center/51.24.1315.744@51.24.1315.744" timestamp="1581974066520" />
+    <state width="1269" height="210" key="GridCell.Tab.0.left" timestamp="1581974066520">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="210" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1581973760672" />
-    <state width="1269" height="210" key="GridCell.Tab.0.right" timestamp="1581973760675">
+    <state width="1269" height="210" key="GridCell.Tab.0.left/51.24.1315.744@51.24.1315.744" timestamp="1581974066520" />
+    <state width="1269" height="210" key="GridCell.Tab.0.right" timestamp="1581974066520">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
-    <state width="1269" height="210" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1581973760675" />
+    <state width="1269" height="210" key="GridCell.Tab.0.right/51.24.1315.744@51.24.1315.744" timestamp="1581974066520" />
     <state width="1269" height="213" key="GridCell.Tab.1.bottom" timestamp="1581973023891">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -283,6 +286,14 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="150" y="96" width="1117" height="573" key="dock-window-1/51.24.1315.744@51.24.1315.744" timestamp="1578841715375" />
+    <state x="150" y="96" width="1117" height="573" key="dock-window-2" timestamp="1582663408695">
+      <screen x="51" y="24" width="1315" height="744" />
+    </state>
+    <state x="150" y="96" width="1117" height="573" key="dock-window-2/51.24.1315.744@51.24.1315.744" timestamp="1582663408695" />
+    <state x="150" y="96" width="1117" height="573" key="dock-window-3" timestamp="1582663861797">
+      <screen x="51" y="24" width="1315" height="744" />
+    </state>
+    <state x="150" y="96" width="1117" height="573" key="dock-window-3/51.24.1315.744@51.24.1315.744" timestamp="1582663861797" />
     <state x="51" y="24" key="new project wizard" timestamp="1579384720302">
       <screen x="51" y="24" width="1315" height="744" />
     </state>
@@ -295,40 +306,6 @@
       <screen x="51" y="24" width="1315" height="744" />
     </state>
     <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.24.1315.744@51.24.1315.744" timestamp="1578843382995" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
-          <line>39</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
-          <line>61</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
-          <line>54</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
-          <line>60</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Bridge.kt</url>
-          <line>52</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

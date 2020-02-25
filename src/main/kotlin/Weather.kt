@@ -11,14 +11,19 @@ class Weather : Subject {
         list.add(observer)
     }
 
-    fun getThunder(someBridge: Bridge) {
-        if (someBridge.randomGeneration()) {
+    fun makeThunder(someBridge: Bridge) {
+        if (randomThunder()) {
             someBridge.update(true)
         } else {
             someBridge.update(false)
         }
     }
 
-
+    fun randomThunder(): Boolean {
+        var x = 1 + Random.nextInt(2)
+        return if (x ==1) {
+            return true
+        } else false
+    }
 
 }
